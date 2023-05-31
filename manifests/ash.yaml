@@ -1,0 +1,10 @@
+apiVersion: ash.dev/v1alpha1
+kind: Ash
+metadata:
+  name: example1
+spec:
+  name: test
+  container:
+    image: ashraf10039/httpapiserver
+    port: 8081
+  replicas: 2
