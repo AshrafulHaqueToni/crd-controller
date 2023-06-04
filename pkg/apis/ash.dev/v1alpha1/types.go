@@ -25,8 +25,8 @@ type AshStatus struct {
 type Ash struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
-	Spec              AshSpec `json:"spec"`
-	Status            AshSpec `json:"status,omitempty"`
+	Spec              AshSpec   `json:"spec"`
+	Status            AshStatus `json:"status,omitempty"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
