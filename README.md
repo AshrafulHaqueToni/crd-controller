@@ -13,9 +13,9 @@ Code-gen generating:
 - Lister
 
 ## Info ##
-- Group Name: ash.tani
+- Group Name: ash.dev
 - Version Name: v1alpha1
-- Resource Name: Kluster
+- Resource Name: Ash
 
 ## Procedure ##
 
@@ -28,9 +28,9 @@ Code-gen generating:
 - again run `go mod tidy;go mod vendor`
 
 ## Deploy Custom resources ##
-- Just create a yaml file like `manifests/kluster.yaml`.
-- Run `kubectl apply -f manifests/kluster.yaml`.
-- Run `kubectl get kluster`.
+- Just create a yaml file like `manifests/ash.yaml`.
+- Run `kubectl apply -f manifests/ash.yaml`.
+- Run `kubectl get ash`.
 
 ## Resource ##
 https://www.linkedin.com/pulse/kubernetes-custom-controllers-part-1-kritik-sachdeva/
